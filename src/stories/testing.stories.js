@@ -9,7 +9,9 @@ const stories = storiesOf("app test", module);
 stories.add("App", () => {
     return (
     <div>
-        <Button label="Button Test"
+        <Button 
+            label="Button Test"
+            onClick={() => console.log("You Clicked a button!")}
         />
         <br />
         <Card image="https://cdn.rapidrtc.com/wp-content/uploads/2021/03/Training-Logo-1.png" text_column="You and your dealership move fast, so you need to learn fast, and we get that."/>
