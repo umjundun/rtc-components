@@ -1,0 +1,24 @@
+{
+  "name": "rtc-components",
+  "version": "1.0.0",
+  "description": "react components based on rapid rtc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umjundun/rtc-components.git"
+  },
+  "author": "MJD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umjundun/rtc-components/issues"
+  },
+  "homepage": "https://github.com/umjundun/rtc-components#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.43",
+    "react": "^17.0.2",
+    "typescript": "^4.6.3"
+  }
+}
